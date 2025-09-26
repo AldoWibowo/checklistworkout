@@ -228,7 +228,7 @@ export default function Plan1BulanApp() {
                 <button onClick={() => { navigator.clipboard.writeText(JSON.stringify(weeklyPlan, null, 2)); alert('Jadwal disalin ke clipboard (JSON).'); }} className="px-3 py-1 rounded border">Copy Jadwal (JSON)</button>
               </div>
 
-              <div className="mt-3 text-xs text-gray-500 dark:text-gray-400">Catatan: Lakukan Kegel tiap hari — bisa sambil duduk/berdiri. Jangan tahan napas saat kontraksi.</div>
+              <div className="mt-3 text-xs text-gray-500 dark:text-gray-400">Catatan: Lakukan Kegel tiap hari — bisa sambil duduk/berdiri. Jangan males pler biar konak.</div>
             </div>
           </aside>
         </section>
@@ -246,10 +246,9 @@ export default function Plan1BulanApp() {
 
   function defaultTasks() {
     return [
-      { text: "Sarapan sehat (protein + serat)", done: false, hint: "Oatmeal/roti gandum + telur" },
-      { text: "Jalan 20-30 menit / olahraga ringan", done: false, hint: "Boleh bagi 2x jalan 10 menit" },
+      { text: "Sarapan sehat (protein + serat)", done: false, hint: "Telur Rebus" },
+      { text: "Jalan 20-30 menit di treadmill atau jalanan / olahraga ringan", done: false, hint: "Boleh bagi 2x jalan 10 menit" },
       { text: "Tidur sebelum jam 12", done: false, hint: "Kurangi layar 30 menit sebelum tidur" },
-      { text: "Stretch leher & punggung 5 menit", done: false, hint: "Turunkan pegal leher" },
     ];
   }
 
